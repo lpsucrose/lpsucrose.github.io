@@ -7,7 +7,7 @@
                     /*MAKE SURE TO UPDATE THE i EACH TIME YOU ADD AN IMAGE!*/
                     /*server-free static image loader*/
                     var image = 'images/' + i.toString() + '.png';
-                    /*$( "img" ).error(function() {break;}).attr( "src", image );*/
+                    $( "img" ).error(function() {break;}).attr( "src", image );*
                     $('#maincontainer').append('<div class="Post"><h2>' + i.toString() +  '</h2><img src="' + image + '"><p class="sign">-LPS</p></div>');
                     
                     
